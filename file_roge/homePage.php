@@ -60,7 +60,8 @@ foreach ($selectCategory as $result){
     </main>
 
     <main class="aboutTanger">
-        <h1 class="">Tanger La Porte De Maroc</h1>
+        <h1>About Tanger</h1>
+        <h2 class="">Tanger La Porte De Maroc</h2>
         <img src="images/Rectangle 18.png" class="imageAboutTanger">
         <p class="tangerLaporte">Tanger, la porte du Maroc, port important, et véritable héritage culturel. La cité blanche qui s’élève sur le détroit de Gibraltar, entre Atlantique et Méditerranée, compte une agglomération de près d’un million d’habitants ce qui en fait la 4ème ville du Maroc. Tanger est une ville cosmopolite, qui a connu son âge d’or, ses heures sombres, et qui renait pour nous faire découvrir cet héritage et les recoins cachés de sa cité.</p>
         <img src="images/Rectangle 48.png" class="imageAboutTanger2">
