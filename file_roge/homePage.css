@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Pinyon+Script&family=Playfair+Display&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Rubik;
+    text-decoration: none;
+    color: black;
+}
+.navBar{
+    display: grid;
+    grid-template-columns: 300px auto auto;
+    font-size: 30px;
+    margin: 0px 10px;
+    }
+    
+
+.logo{
+width: 150px;
+height: 60px;
+size: 30px;
+margin-top: 10px;
+}
+
+#divCategory{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 25px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#category{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.divNavBar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration:none;
+}
+#divNavBar{
+    text-decoration: none;
+
+}
+#favoris{
+margin-top: 10px;
+}
+
+
+.login{
+    background-color: #1A2252;
+    text-align: center;
+    border-radius:10px;
+    border: none;
+    width:90px;
+}
+#loginLink{
+    text-decoration: none;
+    color:#ffffff;
+}
+.section{
+    background-image: url(images/tanger1.jpg);
+    height: 80vh;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+
+.mainCategory{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin: 0 10px 10px 90px;
+}
+.imagesCatégorie{
+    box-shadow:  12px 12px 10px rgba(119, 119, 119, 0.422);
+    border-radius: 27px;
+}
+.tangerLaporte{
+    position: absolute;
+width: 540px;
+left: 500px;
+top: 1220px;
+}
+.tangerLaPorte2{
+position: absolute;
+width: 540px;
+left: 650px;
+top: 1390px;
+
+}
+
+.imageAboutTanger{
+position: absolute;
+width: 350px;
+height: 500px;
+left: 64px;
+top: 1230px;
+}
+
+.imageAboutTanger2{
+position: absolute;
+width: 350px;
+height: 450px;
+left: 250px;
+top: 1350px;
+}
