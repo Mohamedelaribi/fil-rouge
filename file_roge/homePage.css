@@ -36,7 +36,11 @@ margin-top: 10px;
 #category{
     color: #000;
     text-decoration: none;
+    text-align: center;
 
+}
+.tangerLaPorteDeMaroc{
+    margin-left:   130px;
 }
 
 .divNavBar{
@@ -74,8 +78,11 @@ margin-top: 10px;
     background-repeat: no-repeat;
 }
 
-
 .mainCategory{
+    margin-top:90px;
+}
+
+.divCategory{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
@@ -85,8 +92,17 @@ margin-top: 10px;
     box-shadow:  12px 12px 10px rgba(119, 119, 119, 0.422);
     border-radius: 27px;
 }
+#aboutTanger1{
+    text-align: center;
+    margin: 90PX;
+
+}
+.aboutTanger1{
+    position:absolute;
+    top: 250px;
+}
 .tangerLaporte{
-    position: absolute;
+position: absolute;
 width: 540px;
 left: 500px;
 top: 1220px;
@@ -113,4 +129,39 @@ width: 350px;
 height: 450px;
 left: 250px;
 top: 1450px;
+}
+
+.aboutTanger2{
+    margin-left: 50px;
+    margin-top: 200px;
+    position: relative;
+    top: 640px;
+
+}
+.comentAllerATanger{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.allerATanger{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 80px;
+}
+.imgAllerATanger{
+    border-radius:5px;
+    height: 500px;
+    width: 400px;
+}
+.laMédinaDeTanger{
+    text-align: center;
+    margin: 120px 0px 50px;
+}
+.laMédinaTNG{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.tanger5{
+    width: 460px;
+    height: 470px;
+    border-radius:5px;
 }
