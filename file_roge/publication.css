@@ -35,12 +35,22 @@ text-align: center;
     border-radius:10px;
     color: #fff;
 }
-.lebilleLeMirage{
+.lebille{
     position: absolute;
     left: 400px;
 }
-.prixLeMirage{
+.prix{
     position: absolute;
     left: 390px;
     top: 90px;
+}
+.adresse{
+    position: absolute;
+    top: 150px;
+    left:390px ;
+}
+.lien{
+    position: absolute;
+    left: 390px;
+    top: 200px;
 }

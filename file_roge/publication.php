@@ -1,7 +1,10 @@
 <?php
 include "navbar.php";
 include "connection.php";
-$selectData="SELECT  "
+$getcatégorie=$_GET['catégorie'];
+$selectData= $connect->prepare("SELECT *  FROM publication    where idCatégorie ='$getcatégorie' ");
+$selectData->execute();
+
 ?>
 
 
@@ -12,18 +15,24 @@ $selectData="SELECT  "
     <title>Document</title>
 </head>
 <body>
-    <?php ?>
+    
     <section class="section" id="section"></section>
         <h1 class="bienvenueATanger">Bienvenue à Tanger.</h1>
            <p class="bienvenueATanger">nous vous aidons à trouver un bon endroit pour passer votre nuit.
             </p>
+            <?php
+             foreach($selectData as $result){
+             echo'
             <div class="publication">
-                <img src="images/le mirage 2.jpg" class="leMirage2">
+                <img src="images/'.$result["image"].'" class="leMirage2">
                 <button name="MoreInformation" class="MoreInformation">More Information</button>
-                <h1 class="lebilleLeMirage"> LE MIRAGE</h1>
-                <h2 class="prixLeMirage">550dh</h2>
+                <h1 class="lebille">'.$result["libelle"].'</h1>
+                <h2 class="prix">'.$result["Prix"].' DH</h2>
+                <p class="adresse">'.$result["Adresse"].'</p>
+                <a class="lien" href="http://www.lemirage.com/">http://www.lemirage.com/</a>
 
 
-            </div>
+            </div>';
+             }?>
 </body>
 </html>
