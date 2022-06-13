@@ -8,3 +8,39 @@
 margin: 10px;
 text-align: center;
 }
+.publication{
+    position:relative;
+    width: 900px;
+    border-radius:10px;
+    height: 310px;
+    margin: 20px 10px 5px 30px;
+    box-shadow: 7px 10px 35px rgba(0, 0, 0, 0.25);
+}
+.leMirage2{
+    position: absolute;
+    width: 258px;
+    height: 228px;
+    left: 48px;
+    top: 10px;
+    border-radius: 10px;
+}
+.MoreInformation{
+    position: absolute;
+    width:200px;
+    height:50px;
+    top: 250px;
+    left: 48px;
+    background-color: #ef9b35;
+    border: none;
+    border-radius:10px;
+    color: #fff;
+}
+.lebilleLeMirage{
+    position: absolute;
+    left: 400px;
+}
+.prixLeMirage{
+    position: absolute;
+    left: 390px;
+    top: 90px;
+}
