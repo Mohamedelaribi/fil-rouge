@@ -2,7 +2,8 @@
 include "navbar.php";
 include "connection.php";
 $getcatégorie=$_GET['catégorie'];
-$selectData= $connect->prepare("SELECT *  FROM publication    where idCatégorie ='$getcatégorie' ");
+$selectData= $connect->prepare("SELECT *   FROM publication INNER JOIN images ON publication.id=images.id 
+where idCatégorie ='$getcatégorie' ");
 $selectData->execute();
 
 ?>
@@ -24,12 +25,12 @@ $selectData->execute();
              foreach($selectData as $result){
              echo'
             <div class="publication">
-                <img src="images/'.$result["image"].'" class="leMirage2">
+                <img src="images/'.$result["image1"].'" class="leMirage2">
                 <button name="MoreInformation" class="MoreInformation">More Information</button>
                 <h1 class="lebille">'.$result["libelle"].'</h1>
                 <h2 class="prix">'.$result["Prix"].' DH</h2>
-                <p class="adresse">'.$result["Adresse"].'</p>
-                <a class="lien" href="http://www.lemirage.com/">http://www.lemirage.com/</a>
+                <p class="adresse">'.$result["adresse"].'</p>
+                <a class="lien" href="'.$result["website"].'">'.$result["website"].'</a>
 
 
             </div>';
