@@ -13,7 +13,7 @@ $selectData->execute();
 <html lang="en">
 <head>
     <link rel="stylesheet" href="publication.css">
-    <title>Document</title>
+    <title>Document</title>DX
 </head>
 <body>
     
@@ -28,7 +28,7 @@ $selectData->execute();
                 <img src="images/'.$result["image1"].'" class="leMirage2">
                 <button name="MoreInformation" class="MoreInformation">More Information</button>
                 <h1 class="lebille">'.$result["libelle"].'</h1>
-                <h2 class="prix">'.$result["Prix"].' DH</h2>
+                <h2 class="prix"> de '.$result["Prix"].' DH</h2>
                 <p class="adresse">'.$result["adresse"].'</p>
                 <a class="lien" href="'.$result["website"].'">'.$result["website"].'</a>
 

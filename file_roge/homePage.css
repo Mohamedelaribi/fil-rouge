@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik&family=Work+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Pinyon+Script&family=Playfair+Display&display=swap');
 
@@ -6,7 +7,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Rubik;
     text-decoration: none;
     color: black;
 }
@@ -33,10 +33,11 @@ margin-top: 10px;
     text-align: center;
 }
 
-#category{
-    color: #000;
+#Links{
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 
 }
 .tangerLaPorteDeMaroc{
@@ -65,11 +66,15 @@ margin-top: 10px;
     text-align: center;
     border-radius:10px;
     border: none;
-    width:90px;
+    width:100px;
+    height: 40px;
+
 }
 #loginLink{
     text-decoration: none;
     color:#ffffff;
+    font-size: 20px;
+
 }
 .section{
     background-image: url(images/tanger1.jpg);
@@ -79,7 +84,10 @@ margin-top: 10px;
 }
 
 .mainCategory{
-    margin-top:90px;
+    margin-top:50px;
+}
+.category{
+    text-align: center;
 }
 
 .divCategory{

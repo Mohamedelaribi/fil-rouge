@@ -1,19 +1,19 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
 <head>
-
-    <title>North Travel</title>
-
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HomePage.css">
+    <title>northtravel</title>
 </head>
-<body>
+
 <?php include "navbar.php";?>
 
         <!-- main star -->
-      
-
-        <section class="section" id="section">
-        </section>            
+        
         <main class="mainCategory">
         <h1 class="category" id="category">Catégorie</h1>
         <div class="divCategory" id="divCategory">
