@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Poppins'
+}
+
+.section{
+    background-image: url(images/tanger1.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.navBar{
+    display: grid;
+    grid-template-columns: 300px auto auto;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+
+.logo{
+width: 150px;
+height: 60px;
+size: 30px;
+margin-top: 10px;
+}
+
+#divLinks{
+    display: flex;
+    font-size: 25px;
+    margin: 30px 0px;
+    text-align: center;
+    width: 550px;
+    justify-content: space-around;
+    min-width: 600px;
+}
+
+#Links{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+
+}
+#Links:after{
+    content: "";
+    position: absolute;
+    background-color: #F3C507;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: -10px;
+    transition: 0.2s;
+}
+#Links:hover{
+    color: #F3C507;
+}
+#Links:hover:after{
+    width: 100%;
+}
+
+.tangerLaPorteDeMaroc{
+    margin-left:   130px;
+}
+
+.divNavBar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration:none;
+}
+#divNavBar{
+    text-decoration: none;
+
+}
+#favoris{
+margin-top: 10px;
+color: white;
+}
+
+
+.login{
+    background-color: #1A2252;
+    text-align: center;
+    border-radius:10px;
+    border: none;
+    width:100px;
+    height: 40px;
+
+}
+#loginLink{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 20px;
+
+}
+
+
+

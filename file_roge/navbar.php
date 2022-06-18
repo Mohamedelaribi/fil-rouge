@@ -1,4 +1,15 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    
+</body>
+</html>
 <body>
         <!-- navbar star -->
         <section class="section" id="section">
@@ -6,7 +17,7 @@
             
                 <a  class="linkLogo" href="homePage.php"><img class="logo" src="images/Spot.png" alt=""></a>
         
-                    <div id="divCategory">
+                    <div id="divLinks">
                         <a class="Links" id="Links" href="homePage.php">Home</a>
                         <a class="Links" id="Links" href="AboutUs.html">About Us</a>
                         <a class="Links" id="Links" href="Gallery.html">Gallery</a>
